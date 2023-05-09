@@ -24,6 +24,10 @@ const UpdateChoco = () => {
                         <input className='w-full p-3 rounded border' type="text" name="country" id="" placeholder='Enter Country Name' />
                     </div>
                     <div className='mx-32 py-4'>
+                        <p className='font-bold mb-1'>Photo URL</p>
+                        <input className='w-full p-3 rounded border' type="text" name="photo" id="" placeholder='Enter Photo URL' />
+                    </div>
+                    <div className='mx-32 py-4'>
                         <p className='font-bold mb-1'>Category</p>
                         {/* <input className='w-full p-2 rounded' type="text" name="name" id=""
                             placeholder='Premium' /> */}
