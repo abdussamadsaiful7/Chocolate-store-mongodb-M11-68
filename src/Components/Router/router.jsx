@@ -22,8 +22,9 @@ const router = createBrowserRouter([
             element: <AddChoco></AddChoco>
         },
         {
-            path: '/updateChoco',
-            element: <UpdateChoco></UpdateChoco>
+            path: '/updateChoco/:id',
+            element: <UpdateChoco></UpdateChoco>,
+            loader: ({params}) =>fetch(`http://localhost:5000/chocolate/${params.id}`)
         }
       ]
     },
